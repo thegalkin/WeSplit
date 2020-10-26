@@ -33,16 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		398C3B3F2523F23900BE904E /* First App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		398C3B3F2523F23900BE904E /* WeSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		398C3B422523F23900BE904E /* First_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_AppApp.swift; sourceTree = "<group>"; };
 		398C3B442523F23900BE904E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		398C3B462523F23B00BE904E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		398C3B492523F23B00BE904E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		398C3B4B2523F23B00BE904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		398C3B502523F23B00BE904E /* First AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		398C3B502523F23B00BE904E /* WeSplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398C3B542523F23B00BE904E /* First_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_AppTests.swift; sourceTree = "<group>"; };
 		398C3B562523F23B00BE904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		398C3B5B2523F23B00BE904E /* First AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "First AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		398C3B5B2523F23B00BE904E /* WeSplitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeSplitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398C3B5F2523F23B00BE904E /* First_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_AppUITests.swift; sourceTree = "<group>"; };
 		398C3B612523F23B00BE904E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,9 +85,9 @@
 		398C3B402523F23900BE904E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				398C3B3F2523F23900BE904E /* First App.app */,
-				398C3B502523F23B00BE904E /* First AppTests.xctest */,
-				398C3B5B2523F23B00BE904E /* First AppUITests.xctest */,
+				398C3B3F2523F23900BE904E /* WeSplit.app */,
+				398C3B502523F23B00BE904E /* WeSplitTests.xctest */,
+				398C3B5B2523F23B00BE904E /* WeSplitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		398C3B3E2523F23900BE904E /* First App */ = {
+		398C3B3E2523F23900BE904E /* WeSplit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 398C3B642523F23B00BE904E /* Build configuration list for PBXNativeTarget "First App" */;
+			buildConfigurationList = 398C3B642523F23B00BE904E /* Build configuration list for PBXNativeTarget "WeSplit" */;
 			buildPhases = (
 				398C3B3B2523F23900BE904E /* Sources */,
 				398C3B3C2523F23900BE904E /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = "First App";
+			name = WeSplit;
 			productName = "First App";
-			productReference = 398C3B3F2523F23900BE904E /* First App.app */;
+			productReference = 398C3B3F2523F23900BE904E /* WeSplit.app */;
 			productType = "com.apple.product-type.application";
 		};
-		398C3B4F2523F23B00BE904E /* First AppTests */ = {
+		398C3B4F2523F23B00BE904E /* WeSplitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 398C3B672523F23B00BE904E /* Build configuration list for PBXNativeTarget "First AppTests" */;
+			buildConfigurationList = 398C3B672523F23B00BE904E /* Build configuration list for PBXNativeTarget "WeSplitTests" */;
 			buildPhases = (
 				398C3B4C2523F23B00BE904E /* Sources */,
 				398C3B4D2523F23B00BE904E /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				398C3B522523F23B00BE904E /* PBXTargetDependency */,
 			);
-			name = "First AppTests";
+			name = WeSplitTests;
 			productName = "First AppTests";
-			productReference = 398C3B502523F23B00BE904E /* First AppTests.xctest */;
+			productReference = 398C3B502523F23B00BE904E /* WeSplitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		398C3B5A2523F23B00BE904E /* First AppUITests */ = {
+		398C3B5A2523F23B00BE904E /* WeSplitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 398C3B6A2523F23B00BE904E /* Build configuration list for PBXNativeTarget "First AppUITests" */;
+			buildConfigurationList = 398C3B6A2523F23B00BE904E /* Build configuration list for PBXNativeTarget "WeSplitUITests" */;
 			buildPhases = (
 				398C3B572523F23B00BE904E /* Sources */,
 				398C3B582523F23B00BE904E /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				398C3B5D2523F23B00BE904E /* PBXTargetDependency */,
 			);
-			name = "First AppUITests";
+			name = WeSplitUITests;
 			productName = "First AppUITests";
-			productReference = 398C3B5B2523F23B00BE904E /* First AppUITests.xctest */;
+			productReference = 398C3B5B2523F23B00BE904E /* WeSplitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 398C3B3A2523F23900BE904E /* Build configuration list for PBXProject "First App" */;
+			buildConfigurationList = 398C3B3A2523F23900BE904E /* Build configuration list for PBXProject "WeSplit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				398C3B3E2523F23900BE904E /* First App */,
-				398C3B4F2523F23B00BE904E /* First AppTests */,
-				398C3B5A2523F23B00BE904E /* First AppUITests */,
+				398C3B3E2523F23900BE904E /* WeSplit */,
+				398C3B4F2523F23B00BE904E /* WeSplitTests */,
+				398C3B5A2523F23B00BE904E /* WeSplitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,12 +285,12 @@
 /* Begin PBXTargetDependency section */
 		398C3B522523F23B00BE904E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 398C3B3E2523F23900BE904E /* First App */;
+			target = 398C3B3E2523F23900BE904E /* WeSplit */;
 			targetProxy = 398C3B512523F23B00BE904E /* PBXContainerItemProxy */;
 		};
 		398C3B5D2523F23B00BE904E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 398C3B3E2523F23900BE904E /* First App */;
+			target = 398C3B3E2523F23900BE904E /* WeSplit */;
 			targetProxy = 398C3B5C2523F23B00BE904E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -471,7 +471,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First App.app/First App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/WeSplit";
 			};
 			name = Debug;
 		};
@@ -492,7 +492,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First App.app/First App";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeSplit.app/WeSplit";
 			};
 			name = Release;
 		};
@@ -537,7 +537,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		398C3B3A2523F23900BE904E /* Build configuration list for PBXProject "First App" */ = {
+		398C3B3A2523F23900BE904E /* Build configuration list for PBXProject "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				398C3B622523F23B00BE904E /* Debug */,
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		398C3B642523F23B00BE904E /* Build configuration list for PBXNativeTarget "First App" */ = {
+		398C3B642523F23B00BE904E /* Build configuration list for PBXNativeTarget "WeSplit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				398C3B652523F23B00BE904E /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		398C3B672523F23B00BE904E /* Build configuration list for PBXNativeTarget "First AppTests" */ = {
+		398C3B672523F23B00BE904E /* Build configuration list for PBXNativeTarget "WeSplitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				398C3B682523F23B00BE904E /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		398C3B6A2523F23B00BE904E /* Build configuration list for PBXNativeTarget "First AppUITests" */ = {
+		398C3B6A2523F23B00BE904E /* Build configuration list for PBXNativeTarget "WeSplitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				398C3B6B2523F23B00BE904E /* Debug */,
